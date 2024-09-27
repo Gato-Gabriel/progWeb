@@ -1,12 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-block: none;
 }
 header {
     width: 100vw;
+    min-height: 10vh;
+}
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1.2vh;
+    /*min-height: 8vh;*/
 }
 header nav {
     width: 100%;
+    margin: 3.2vh 0;
 }
 header nav ul {
     list-style-type: none;
@@ -14,4 +26,11 @@ header nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+header nav ul a {
+    text-decoration: none;
+    background-color: red;
+    color: aliceblue;
+
+    padding: 1.2vh 1vw;
 }
