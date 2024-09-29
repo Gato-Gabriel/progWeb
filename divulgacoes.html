@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
-    <title>Divulgações - Notícias</title>
+    <title>Divulgaçõesvul - Notícias</title>
     <link rel="stylesheet" href="style.css">
-   
+
 </head>
+
 <body>
     <header>
-        <section>
-        <div class="logo">
-            <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/logo.png?raw=true" widt="60px" height="60px" alt="Logo da página">
-          </div>
-        </section>
+        <div  class = "container">
+            <div class="logo">
+                <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/logo.png?raw=true" alt="Logo da página">
+            </div>
         <nav>
             <ul>
                 <li><a href="./home.html">Home</a></li>
@@ -25,11 +26,45 @@
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
+        </div>
     </header>
-    <main>
-        <section></section>
-        <aside></aside>
+    <main class="container">
+        <section>
+            <div class="formulario-texto">
+                <h2>Formulário de Divulgação</h2><br>
+                <p>Preencha o formulário abaixo para divulgar sua matéria. Por favor, forneça seu nome,<br> e-mail, um
+                    título para sua matéria e o conteúdo da mesma.</p>
+            </div>
+            <form action="#" method="post" class="form-divulgacao">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="titulo">Título da Matéria:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="texto">Texto da Matéria:</label>
+                    <textarea id="texto" name="texto" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Matéria</button>
+            </form>
+        </section>
     </main>
-    <footer></footer>
+
+    <footer>
+        <p>&copy; 2024 Universidade - Todos os direitos reservados. | <a
+                href="mailto:contato@universidade.com">contato@universidade.com</a></p>
+    </footer>
 </body>
+
 </html>

@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
-    <title>Contato - Notícias</title>
+    <script defer="" src="script.js"></script>
+     <title>Contato - Notícias</title>
     <link rel="stylesheet" href="style.css">
    
 </head>
 <body>
     <header>
-        <section>
-        <div class="logo">
-            <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/logo.png?raw=true" widt="60px" height="60px" alt="Logo da página">
-          </div>
-        </section>
+        <div  class = "container">
+            <div class="logo">
+                <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/logo.png?raw=true" alt="Logo da página">
+            </div>
         <nav>
             <ul>
                 <li><a href="./home.html">Home</a></li>
@@ -25,11 +25,46 @@
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
+    </div>
     </header>
-    <main>
-        <section></section>
-        <aside></aside>
+    <main class="container">
+        <section class="carrossel-container">
+            <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button>
+        
+            <div class="carrossel">
+                <div class="cardDev">
+                    <h3>Desenvolvedor 1</h3>
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+                </div>
+                <div class="cardDev">
+                    <h3>Desenvolvedor 2</h3>
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+
+                </div>
+                <div class="cardDev">
+                    <h3>Desenvolvedor 3</h3>
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+
+                </div>
+                <div class="cardDev">
+                    <h3>Desenvolvedor 4</h3>
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+
+                </div>
+                <div class="cardDev">
+                    <h3>Desenvolvedor 5</h3>
+                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+
+                </div>
+            </div>
+        
+            <button class="next" onclick="moverCarrossel(1)">&#10095;</button>
+        </section>
     </main>
-    <footer></footer>
+   
+    <footer>
+        <p>&copy; 2024 Universidade - Todos os direitos reservados.| <a
+            href="mailto:contato@universidade.com">contato@universidade.com</a></p>
+    </footer>
 </body>
 </html>
