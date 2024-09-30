@@ -71,9 +71,9 @@ header nav ul li a:hover {
     height: 60px;
     margin: auto;
 }
-main {
-    margin-top: 120px; /* Adicionar margem suficiente para não sobrepor o conteúdo */
-}
+/*main {
+    margin-top: 120px;  Adicionar margem suficiente para não sobrepor o conteúdo 
+}*/
 
 h1 {
     text-align: center;
