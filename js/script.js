@@ -15,3 +15,11 @@ function moverCarrossel(n) {
 
     carrossel.style.transform = `translateX(${-slideIndex * 100}%)`;
 }
+
+// Menu Hamburguer
+const hamMenu = document.querySelector(".hamburger_menu");
+const offScreenMenu = document.querySelector("nav");
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+});
