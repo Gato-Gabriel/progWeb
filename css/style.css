@@ -111,6 +111,9 @@ main .container {
     margin: 0 auto; 
     padding: 0; 
 }
+.container section h1 {
+    color: white;
+}
 
 .card {
     background-color: white;
@@ -145,8 +148,9 @@ main .container {
     color: #666;
 }
 .card p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #666;
+    text-align: justify;
 }
 .card a {
     color: blue;
@@ -154,6 +158,59 @@ main .container {
 }
 .card a:hover {
     text-decoration: underline;
+}
+
+.org-card {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+
+    align-items: center;
+}
+.org-card img {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 60%;
+}
+.org-card .texto-card {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 10%;
+
+    padding: 1% 5%;
+}
+.org-card a {
+    max-width: 50%;
+    text-decoration: none;
+}
+.org-card a button {    
+    background-color: #616677;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+.org-card a button:hover {
+    background-color: #7381ac;
+    text-decoration: none;
+    transition: 0.1s ease;
+}
+
+.news-card {
+
+}
+.news-card img {
+    max-height: 376px;
+    max-width: 70%;
+}
+.news-card p {
+    padding: 1px 10px;
+}
+.news-card button {
+    width: 20%;
+    padding: 20px 1px;
+    margin: auto auto;
+    
+    background-color: #616677;
 }
 
 button{

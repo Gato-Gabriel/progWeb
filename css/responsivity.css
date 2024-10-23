@@ -62,4 +62,26 @@
         top: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
     }
+
+    .org-card {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 29% 1fr; */
+    }    
+    .org-card img {
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 40%;
+    }
+    .org-card .texto-card {
+        grid-column: 1;
+        grid-row: 2;
+        display: grid;
+        grid-template-rows: 5%;
+    
+        padding: 1% 5%;
+    }
+
+    .news-card button {
+        width: 100%;
+    }
   }
