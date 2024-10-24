@@ -17,14 +17,7 @@
                 <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/img/logo.png?raw=true" alt="Logo da página">
             </div>
             <nav>
-                <ul>
-                    <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a></li>
-                    <li><a href="./orgs.html"><i class="fa-solid fa-people-group"></i>&nbsp;Organizações</a></li>
-                    <li><a href="./alunos.html"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Alunos</a></li>
-                    <li><a href="./instituicao.html"><i class="fa-solid fa-school"></i>&nbsp;Instituição</a></li>
-                    <li><a href="./divulgacoes.html"><i class="fa-solid fa-bullhorn"></i>&nbsp;Divulgações</a></li>
-                    <li><a href="./contato.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contato</a></li>
-                </ul>
+                <ul id="menu"></ul>
             </nav>
             <div class="hamburger_menu">
                 <span></span>
@@ -37,14 +30,19 @@
     <main class="container">
         <section>
             <div class="card news-card">
-                <h2 class="summary" onclick="toggleCard(this)">TADS entre os 10 cursos mais procurados da Unicamp</h2>
+                <h2 class="summary" onclick="toggleCard(this)">TADS entre os 10 cursos mais procurados da Unicamp <i class="fa-solid fa-caret-down"></i></h2>
                 <div class="full" style="display:none;">
                     <img src="./img/tadsConcorrido.png" alt="Imagem sobre TADS" class="card-image">
+                    <p>A Comissão Permanente para os Vestibulares (Comvest) da Unicamp divulgou o balanço das inscrições para o Vestibular 2025, que contou com 63.004 inscritos. Entre os cursos mais procurados, a área de Computação se destacou, com três cursos no top 10: Ciência da Computação, Engenharia da Computação e Tecnologia em Análise e Desenvolvimento de Sistemas (TADS).
+                        O curso de TADS teve 22 candidatos por vaga, demonstrando o crescente interesse na área de tecnologia e análise de sistemas, que continua a atrair muitos candidatos. A tabela completa de concorrência por curso pode ser acessada na página oficial do Vestibular Unicamp 2025.
+                        As três carreiras mais procuradas no Vestibular 2025 foram Medicina, Ciência da Computação, e  Arquitetura e Urbanismo, sendo que Tecnologia em Análise e Desenvolvimento de Sistemas ficou em décimo lugar.
+                        O número de inscritos foi um pouco menor do que o registrado em 2024, mas ainda maior que os anos anteriores, reforçando a competitividade do vestibular.
+                        Fonte: Unicamp Notícias - Vestibular 2025</p>
                 </div>
             </div>
 
             <div class="card news-card">
-                <h2 class="summary" onclick="toggleCard(this)">FT na UPA 2024 - Unicamp de Portas Abertas</h2>
+                <h2 class="summary" onclick="toggleCard(this)">FT na UPA 2024 - Unicamp de Portas Abertas <i class="fa-solid fa-caret-down"></i></h2>
                 <div class="full" style="display:none;">
                     <img src="./img/upa 1.jpg" alt="FT na UPA" class="card-image">
                     <p>A Faculdade de Tecnologia teve destaque na 19ª edição do evento Unicamp de Portas Abertas (UPA) de 2024. Os cursos de Engenharia de Telecomunicações, TADS, e Sistemas de Informação atraíram muitos visitantes, com atividades interativas, robôs e palestras. Foi uma grande oportunidade para futuros vestibulandos conhecerem mais sobre as áreas de atuação da FT.</p>
@@ -52,7 +50,7 @@
             </div>
 
             <div class="card news-card">
-                <h2 class="summary" onclick="toggleCard(this)">Edital do Processo Seletivo - Pós-graduação em Tecnologia - 1º semestre de 2025</h2>
+                <h2 class="summary" onclick="toggleCard(this)">Edital do Processo Seletivo - Pós-graduação em Tecnologia - 1º semestre de 2025 <i class="fa-solid fa-caret-down"></i></h2>
                 <div class="full" style="display:none;">
                     <img src="./img/psposgrad.png" alt="Pos Graduacao" class="card-image">
                     <p>Estão abertas as inscrições para o Processo Seletivo de Mestrado e Doutorado da Faculdade de Tecnologia da Unicamp, com ingresso para o 1º semestre de 2025. As inscrições vão de 14/10/2024 a 03/11/2024, e devem ser realizadas em duas etapas: inscrição no SIGA e submissão de documentos no SGPG. Concluintes de graduação e mestrado podem participar com as devidas documentações.</p>
