@@ -18,12 +18,12 @@
             </div>
         <nav>
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./orgs.html">Organizações</a></li>
-                <li><a href="./alunos.html">Alunos</a></li>
-                <li><a href="./instituicao.html">Instituição</a></li>
-                <li><a href="./divulgacoes.html">Divulgações</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a></li>
+                <li><a href="./orgs.html"><i class="fa-solid fa-people-group"></i>&nbsp;Organizações</a></li>
+                <li><a href="./alunos.html"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Alunos</a></li>
+                <li><a href="./instituicao.html"><i class="fa-solid fa-school"></i>&nbsp;Instituição</a></li>
+                <li><a href="./divulgacoes.html"><i class="fa-solid fa-bullhorn"></i>&nbsp;Divulgações</a></li>
+                <li><a href="./contato.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contato</a></li>
             </ul>
         </nav>
         <div class="hamburger_menu">
@@ -35,23 +35,29 @@
     </header>
     <main class="container">
         <section>
-            <div class="card news-card">
-                <h2>TADS entre os 10 cursos mais procurados da Unicamp</h2><br> 
+            <div class="card news-card" onclick="toggleCard(this)">
+                <h2 class="summary">TADS entre os 10 cursos mais procurados da Unicamp</h2><br>
+                <div class="full">
                 <img src="./img/tadsConcorrido.png" alt="Imagem sobre TADS" class="card-image">
                 <p>No Vestibular 2025 da Unicamp, o curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) está entre os 10 mais procurados, com uma concorrência de 22 candidatos por vaga. A área de Computação foi destaque, com três cursos entre os mais disputados: Ciência da Computação, Engenharia da Computação e TADS.</p>
                 <a href=""><button><i class="fa-regular fa-newspaper"></i> Leia mais sobre esta notícia</button></a>
+                </div>
             </div>            
-            <div class="card news-card">
-                <h2>FT na UPA 2024 - Unicamp de Portas Abertas</h2><br> 
+            <div class="card news-card" onclick="toggleCard(this)">
+                <h2 class="summary">FT na UPA 2024 - Unicamp de Portas Abertas</h2><br>
+                <div class="full">
                 <img src="./img/upa 1.jpg" alt="FT na UPA" class="card-image">
                 <p>A Faculdade de Tecnologia teve destaque na 19ª edição do evento Unicamp de Portas Abertas (UPA) de 2024. Os cursos de Engenharia de Telecomunicações, TADS, e Sistemas de Informação atraíram muitos visitantes, com atividades interativas, robôs e palestras. Foi uma grande oportunidade para futuros vestibulandos conhecerem mais sobre as áreas de atuação da FT.</p>
                 <a href=""><button><i class="fa-regular fa-newspaper"></i> Leia mais sobre esta notícia</button></a>
+                </div>
             </div>
-            <div class="card news-card">
-                <h2>Edital do Processo Seletivo - Pós-graduação em Tecnologia - 1º semestre de 2025</h2><br> 
+            <div class="card news-card" onclick="toggleCard(this)">
+                <h2 class="summary">Edital do Processo Seletivo - Pós-graduação em Tecnologia - 1º semestre de 2025</h2><br> 
+                <div class="full">
                 <img src="./img/psposgrad.png" alt="Pos Graduacao" class="card-image">
                 <p>Estão abertas as inscrições para o Processo Seletivo de Mestrado e Doutorado da Faculdade de Tecnologia da Unicamp, com ingresso para o 1º semestre de 2025. As inscrições vão de 14/10/2024 a 03/11/2024, e devem ser realizadas em duas etapas: inscrição no SIGA e submissão de documentos no SGPG. Concluintes de graduação e mestrado podem participar com as devidas documentações.</p>
                 <a href=""><button><i class="fa-regular fa-newspaper"></i> Leia mais sobre esta notícia</button></a>
+                </div>
             </div>
         </section>
     </main>

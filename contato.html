@@ -8,7 +8,8 @@
      <title>Contato - Notícias</title>
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/responsivity.css">
-     <script defer src="js/script.js"></script> 
+     <script defer src="js/script.js"></script>
+     <script src="https://kit.fontawesome.com/49e718d48a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -18,12 +19,12 @@
             </div>
         <nav>
             <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./orgs.html">Organizações</a></li>
-                <li><a href="./alunos.html">Alunos</a></li>
-                <li><a href="./instituicao.html">Instituição</a></li>
-                <li><a href="./divulgacoes.html">Divulgações</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a></li>
+                <li><a href="./orgs.html"><i class="fa-solid fa-people-group"></i>&nbsp;Organizações</a></li>
+                <li><a href="./alunos.html"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Alunos</a></li>
+                <li><a href="./instituicao.html"><i class="fa-solid fa-school"></i>&nbsp;Instituição</a></li>
+                <li><a href="./divulgacoes.html"><i class="fa-solid fa-bullhorn"></i>&nbsp;Divulgações</a></li>
+                <li><a href="./contato.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contato</a></li>
             </ul>
         </nav>
         <div class="hamburger_menu">
@@ -34,41 +35,39 @@
     </div>
     </header>
     <main class="container">
-        <section class="carrossel-container">
-            <button class="prev" onclick="moverCarrossel(-1)">&#10094;</button>
-        
-            <div class="carrossel">
-                <div class="cardDev">
-                    <h3>Desenvolvedor 1</h3>
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
+        <section>
+            <h1><i class="fa-solid fa-code"></i> Conheça nossos desenvolvedores! <i class="fa-solid fa-code"></i></h1>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="img/helo.jfif" alt="Image 1">
+                        <h3>Heloisa Feitosa</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/gato.jpg" alt="Image 2">
+                        <h3>Gabriel Gato Piragini Sant'Ana</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/yan.jpg" alt="Image 4">
+                        <h3>Yan Rocha Cunha</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/geovanne.jfif" alt="Image 5">
+                        <h3>Geovanne Silva Pereira</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/thigas.jpg" alt="Image 3">
+                        <h3>Thiago Henrique dos Santos</h3>
+                    </div>
                 </div>
-                <div class="cardDev">
-                    <h3>Desenvolvedor 2</h3>
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
-
-                </div>
-                <div class="cardDev">
-                    <h3>Desenvolvedor 3</h3>
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
-
-                </div>
-                <div class="cardDev">
-                    <h3>Desenvolvedor 4</h3>
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
-
-                </div>
-                <div class="cardDev">
-                    <h3>Desenvolvedor 5</h3>
-                    <img src="https://static.vecteezy.com/ti/vetor-gratis/t2/10598326-pessoa-icone-em-um-fundo-branco-ilustracao-eps-10-vetor.jpg" alt="Imagem desenvolvedor 1" class="card-image">
-
+                <div class="carousel-controls">
+                    <button class="prev" onclick="moveSlide(-1)"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                    <button class="next" onclick="moveSlide(1)"><i class="fa-solid fa-circle-chevron-right"></i></button>
                 </div>
             </div>
-        
-            <button class="next" onclick="moverCarrossel(1)">&#10095;</button>
-        </section>
-        <section>
+            <hr> <br>
             <div class="formulario-texto">
-                <h2>Formulário de Contato</h2><br>
+                <h2><i class="fa-regular fa-file-lines"></i> Formulário de Contato</h2><br>
                 <p>Caso queira entrar em contato conosco preencha o formulário abaixo, informando seu nome, e-mail, e o assunto.</p>
             </div>
             <form action="#" method="post" class="form-divulgacao">
