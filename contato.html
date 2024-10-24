@@ -4,68 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
-    <script defer src="js/script.js"></script>
-     <title>Contato - Notícias</title>
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/responsivity.css">
-     <script defer src="js/script.js"></script>
-     <script src="https://kit.fontawesome.com/49e718d48a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivity.css">
+    <script defer src="js/script.js"></script> 
+    <script src="https://kit.fontawesome.com/49e718d48a.js" crossorigin="anonymous"></script>
+    <title>Contato - Notícias</title>
 </head>
 <body>
     <header>
-        <div  class = "container">
+        <div class="container">
             <div class="logo">
                 <img src="https://github.com/Gato-Gabriel/progWeb/blob/main/img/logo.png?raw=true" alt="Logo da página">
             </div>
-        <nav>
-            <ul>
-                <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a></li>
-                <li><a href="./orgs.html"><i class="fa-solid fa-people-group"></i>&nbsp;Organizações</a></li>
-                <li><a href="./alunos.html"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Alunos</a></li>
-                <li><a href="./instituicao.html"><i class="fa-solid fa-school"></i>&nbsp;Instituição</a></li>
-                <li><a href="./divulgacoes.html"><i class="fa-solid fa-bullhorn"></i>&nbsp;Divulgações</a></li>
-                <li><a href="./contato.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contato</a></li>
-            </ul>
-        </nav>
-        <div class="hamburger_menu">
-            <span></span>
-            <span></span>
-            <span></span>
+            <nav>
+                <ul>
+                    <li><a href="./home.html"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</a></li>
+                    <li><a href="./orgs.html"><i class="fa-solid fa-people-group"></i>&nbsp;Organizações</a></li>
+                    <li><a href="./alunos.html"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Alunos</a></li>
+                    <li><a href="./instituicao.html"><i class="fa-solid fa-school"></i>&nbsp;Instituição</a></li>
+                    <li><a href="./divulgacoes.html"><i class="fa-solid fa-bullhorn"></i>&nbsp;Divulgações</a></li>
+                    <li><a href="./contato.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contato</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger_menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-    </div>
     </header>
+
     <main class="container">
         <section>
-            <h1><i class="fa-solid fa-code"></i> Conheça nossos desenvolvedores! <i class="fa-solid fa-code"></i></h1>
-            <div class="carousel-container">
-                <div class="carousel">
-                    <div class="carousel-slide">
-                        <img src="img/helo.jfif" alt="Image 1">
-                        <h3>Heloisa Feitosa</h3>
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="img/gato.jpg" alt="Image 2">
-                        <h3>Gabriel Gato Piragini Sant'Ana</h3>
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="img/yan.jpg" alt="Image 4">
-                        <h3>Yan Rocha Cunha</h3>
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="img/geovanne.jfif" alt="Image 5">
-                        <h3>Geovanne Silva Pereira</h3>
-                    </div>
-                    <div class="carousel-slide">
-                        <img src="img/thigas.jpg" alt="Image 3">
-                        <h3>Thiago Henrique dos Santos</h3>
-                    </div>
-                </div>
-                <div class="carousel-controls">
-                    <button class="prev" onclick="moveSlide(-1)"><i class="fa-solid fa-circle-chevron-left"></i></button>
-                    <button class="next" onclick="moveSlide(1)"><i class="fa-solid fa-circle-chevron-right"></i></button>
-                </div>
-            </div>
-            <hr> <br>
             <div class="formulario-texto">
                 <h2><i class="fa-regular fa-file-lines"></i> Formulário de Contato</h2><br>
                 <p>Caso queira entrar em contato conosco preencha o formulário abaixo, informando seu nome, e-mail, e o assunto.</p>
@@ -88,12 +58,41 @@
 
                 <button type="submit" class="btn-submit">Enviar Mensagem</button>
             </form>
+            <hr> <br>
+            <h1><i class="fa-solid fa-code"></i> Conheça nossos desenvolvedores! <i class="fa-solid fa-code"></i></h1>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="img/gato.jpg" alt="Image 2">
+                        <h3>Gabriel Gato Piragini Sant'Ana</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/geovanne.jfif" alt="Image 5">
+                        <h3>Geovanne Silva Pereira</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/helo.jfif" alt="Image 1">
+                        <h3>Heloisa Feitosa</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/thigas.jpg" alt="Image 3">
+                        <h3>Thiago Henrique dos Santos</h3>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/yan.jpg" alt="Image 4">
+                        <h3>Yan Rocha Cunha</h3>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="prev" onclick="moverCarrossel(-1)"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                    <button class="next" onclick="moverCarrossel(1)"><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </div>
         </section>
     </main>
-   
+
     <footer>
-        <p>&copy; 2024 Universidade - Todos os direitos reservados.| <a
-            href="mailto:contato@universidade.com">contato@universidade.com</a></p>
+        <p>&copy; 2024 Universidade - Todos os direitos reservados. | <a href="mailto:contato@universidade.com">contato@universidade.com</a></p>
     </footer>
 </body>
 </html>
